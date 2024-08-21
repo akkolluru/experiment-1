@@ -1,0 +1,30 @@
+.container{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 2em;
+    max-width: 300px;
+    width: 100%;
+}
+body, h1, form, input, button{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#submit{
+    cursor: pointer;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 0.5em;
+    color: black;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
